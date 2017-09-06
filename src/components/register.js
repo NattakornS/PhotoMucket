@@ -38,8 +38,6 @@ class Register extends Component{
         //blog post has been create, navigate user to index
         //we navigate by calling this.context.router.push
         this.context.router.push('/');
-        console.log("Register is successful");
-        alert("Register is successful");
       });
   }
   progressFunc(progressEvent) {
