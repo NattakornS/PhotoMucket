@@ -1,0 +1,5 @@
+{
+  "imageUrl":"http://s3.amazonaws.com/Rekognitiondemo/15082017/imagename.jpg",
+  "bucket":"Rekognitiondemo",
+  "key":"15082017/imagename.jpg"
+}

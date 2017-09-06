@@ -1,0 +1,10 @@
+{
+  "firstName":"Nattakorn",
+  "sureName": "Sanpabopit",
+  "nickName": "King",
+  "email": "nattakorn.kingman@gmail.com",
+  "birthDay": "4/22/1991",
+  "phone": "0846972500",
+  "description":"",
+  "imageUrl":"http://s3.amazonaws.com/BucketName/FiolderName/file.jpg",
+}

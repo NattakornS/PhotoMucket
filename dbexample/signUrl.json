@@ -1,0 +1,6 @@
+{
+  "signUrl":"http://s3.amazonaws.lbkgfnjgfijgfnmjklgfngfn",
+  "imageUrl":"http://s3.amazonaws/Rekognitiondemo/15082017/imagename.jpg",
+  "bucket":"bucketName",
+  "key":"keyName"
+}
