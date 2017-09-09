@@ -17,8 +17,8 @@ export default function(state = INITIAL_STATE, action){
     case UPLOAD_PROGRESS:
       return {...state, uploadProgress: action.payload}
     case FACE_ANALYSIS_DATA:
-    console.log(action.payload.data.body);
-    return { ...state, faceAnalysisData: JSON.parse(action.payload.data.body).detailface };
+    // console.log(JSON.parse(action.payload.data.body));
+    return { ...state, faceAnalysisData: JSON.parse(action.payload.data.body)[0] };
     default:
       return state;
   }
