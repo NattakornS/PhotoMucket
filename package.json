@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
     "autodll-webpack-plugin": "^0.2.1",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
@@ -24,9 +26,7 @@
     "jsdom": "^8.1.0",
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^0.14.7",
-    "uglifyjs-webpack-plugin": "^0.4.6",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "uglifyjs-webpack-plugin": "^0.4.6"
   },
   "dependencies": {
     "axios": "^0.16.2",
