@@ -5,8 +5,10 @@ files:
     destination: /var/www/html/
   - source: /style/
     destination: /var/www/html/style/
-  - source: /dist/bundle.js
+  - source: /js/bundle.js
     destination: /var/www/html/js/
+  - source: /image/
+    destination: /var/www/html/image/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
