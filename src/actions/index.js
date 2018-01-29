@@ -10,7 +10,7 @@ export const FACE_ANALYSIS_DATA = 'FACE_ANALYSIS_DATA';
 
 
 const ROOT_URL = 'https://xoz9ueh88l.execute-api.us-east-1.amazonaws.com/dev/rekognition';
-const API_KEY = 'KtC05aDCas3neGMHHnVoq9ik2kFX3Fu48o4lSfBi';
+const API_KEY = '';
 
 export function getSignUrl(action,params){
   const request = axios.get(`${ROOT_URL}/${action}/signUrl`,{
